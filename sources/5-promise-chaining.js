@@ -84,15 +84,21 @@ gabungKata(arrayKata[0])
   .then((dataHasilResolve) => {
 
     // Sama dengan atas
-    return new Promise((resolve, reject) => {
-      gabungKata(dataHasilResolve + " " + arrayKata[4])
-        .then((data) => {
-          resolve(data);
-        })
-        .catch((err) => {
-          reject(err);
-        })
-    });
+    // return new Promise((resolve, reject) => {
+    //   gabungKata(dataHasilResolve + " " + arrayKata[4])
+    //     .then((data) => {
+    //       resolve(data);
+    //     })
+    //     .catch((err) => {
+    //       reject(err);
+    //     })
+    // });
+
+    // Karena sama sama dibungkus dalam promise
+    // sama-sama me-return new promise
+    // dan akan di-"passing" ke parameter selanjutnya,
+    // Maka kita bisa menulisnya seperti ini saja.
+    return gabungKata(dataHasilResolve + " " + arrayKata[4]);
 
   })
   .then((dataHasilResolve) => {
