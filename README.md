@@ -123,7 +123,7 @@ Solusinya diperkenalkan dalam ES6 yaitu dengan menggunakan `Promise`
 Sesuai namanya, `Promise` adalah suatu konsep yang membuat aplikasi untuk `Berjanji`
 akan melakukan sesuatu yang tidak diketahui akan dijalankannya kapan (sama dengan 
 kita membuat janji pada diri kita sendiri, misal Saya berjanji akan berusaha 
-tidak marah ketika nonton `World of the Marriage (WotM)` !).
+tidak marah ketika nonton `World of the Married (WotM)` !).
 
 `Promise` di dalam javascript ini merepresentasikan operasi atau aksi yang belum 
 diselesaikan sekarang, tapi akan diselesaikan nanti di masa depan dan bersifat
@@ -134,7 +134,7 @@ nyata:
 
 Misalnya:  
 Premis `Janji` - Saya berjanji akan berusaha tidak marah ketika 
-menonton `World of the Marriage`
+menonton `World of the Married`
 
 Di sini saya baru membuat janji, saya belum menjalankan janji saya, kondisi ini
 dijalankan ketika
